@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+
+    <form action="https://register-demo.freecodecamp.org">
+      <div>
+        <label for="first-name"
+          >First Name : <br />
+          <input type="text" name="first-name" class="isi" required> </label
+        ><br />
+        <label for="last-name"
+          >Last Name : <br />
+          <input type="text" name="last-name" class="isi" required /> </label
+        ><br />
+        <label for="email"
+          >Enter your Email : <br />
+          <input type="text" name="email" class="isi" required /> </label
+        ><br />
+        <label for="pass"
+          >Enter your Password : <br />
+          <input type="password" name="pass" class="isi" required /> </label
+        ><br />
+        <label for="bio"
+          >Provide bio : <br />
+          <textarea name="bio" class="isi" cols="30" rows="5" required></textarea>
+        </label>
+      </div>
+      <span>
+        <input type="radio" class="klik" name="account" value="Personal_Account" />
+        <label for="personal">Personal Account</label>
+        <input type="radio" class="klik" name="account" value="Bussines_Account" />
+        <label for="bussines">Bussines Account</label>
+      </span>
+      <div class="klik">
+        <input type="checkbox"/>
+        <label >I accept the <a style="color: #4F8ACF; font-style: normal;" href="https://www.w3schools.com">terms and conditions</a></label>
+      </div>
+      <input type="submit" value="Submit">
+    </form>
+    
+  </body>
+</html>
